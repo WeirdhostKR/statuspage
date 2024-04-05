@@ -110,23 +110,23 @@ function getStatusText(color) {
   return color == "nodata"
     ? "정보부족"
     : color == "success"
-    ? "Fully Operational"
+    ? "문제없음"
     : color == "failure"
-    ? "Major Outage"
+    ? "좀 큰 문제"
     : color == "partial"
-    ? "Partial Outage"
+    ? "살짝 문제"
     : "Unknown";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "아직 충분한 정보가 없어요"
     : color == "success"
-    ? "No downtime recorded on this day."
+    ? "다운타임이 없어요! :D"
     : color == "failure"
-    ? "Major outages recorded on this day."
+    ? "장기간의 다운타임이 발생했어요."
     : color == "partial"
-    ? "Partial outages recorded on this day."
+    ? "살짝의 다운타임이 발생했어요"
     : "Unknown";
 }
 
