@@ -112,7 +112,7 @@ function getStatusText(color) {
     : color == "success"
     ? "문제없음"
     : color == "failure"
-    ? "좀 큰 문제"
+    ? "이멀젼씨!"
     : color == "partial"
     ? "살짝 문제"
     : "Unknown";
@@ -124,9 +124,9 @@ function getStatusDescriptiveText(color) {
     : color == "success"
     ? "다운타임이 없어요! :D"
     : color == "failure"
-    ? "장기간의 다운타임이 발생했어요."
+    ? "장기간의 다운타임이 발생했네요..?"
     : color == "partial"
-    ? "살짝의 다운타임이 발생했어요"
+    ? "살짝의 다운타임이 발생했어요..."
     : "Unknown";
 }
 
